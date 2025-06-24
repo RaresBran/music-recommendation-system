@@ -24,15 +24,3 @@ A modern music discovery platform that leverages machine learning and serverless
 ## Results
 
 The system loads over 170k tracks, enriches them with genre information and stores them in Supabase. Embeddings are created using Google's `text-embedding-004` model to enable high quality recommendations. Users receive Spotify links for the top matches based on their likes and favorites.
-
-## Getting Started
-
-1. Install dependencies with `yarn install`.
-2. Run the development server using `yarn dev`.
-3. Configure Supabase credentials and Google API keys in an `.env` file.
-
-Python scripts such as `main.py` and `main_3.py` show how the dataset is merged and uploaded with embeddings.
-
-## License
-
-This project is provided for educational purposes.
